@@ -23,6 +23,8 @@ const App = () => {
     const handleEditorTextChange = async (eNode) => {
         const editorSavedData = await eNode.saver.save();
         const { blocks } = editorSavedData;
+        localStorage.setItem('blockCache', JSON.stringify(blocks));
+        console.log(blocks);
     };
 
   return (
