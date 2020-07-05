@@ -1,24 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useEffect, useState, useRef } from 'react';
 import './App.css';
+import EditorJS from '@editorjs/editorjs';
+import { editorConfig } from './config';
 
-function App() {
+const App = () => {
+    const editor = useRef();
+
+    useEffect(() => {
+        initEditor();
+    }, []);
+
+    const initEditor = () => {
+        if (editor.current) {
+            editor.current.id = "editorjs";
+            const editorInstance = new EditorJS(editorConfig);
+            editorConfig.onChange = () => {
+                handleEditorTextChange(editorInstance);
+            }
+        }
+    };
+
+    const handleEditorTextChange = async (eNode) => {
+        const editorSavedData = await eNode.saver.save();
+        const { blocks } = editorSavedData;
+    };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div
+          ref={editor}
+          className="editor"
+      />
     </div>
   );
 }

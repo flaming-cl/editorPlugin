@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.editor {
+  padding: 2% 3% 20px 3%;
+  z-index: 99;
+  background: white;
+  height: 85vh;
+  margin: 35px 0 10% 0;
+  left: 28%;
+  top: 0;
+  position: fixed;
+  overflow: auto;
+  width: 500px;
+  font-weight: 500;
+  text-align: justify;
+  text-justify: distribute-all-lines;
+  text-align-last: left;
+  -moz-text-align-last: left;
+  -webkit-text-align-last: left;
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+}

@@ -4,9 +4,13 @@
   "private": true,
   "homepage": "https://flaming-cl.github.io/editorPlugin",
   "dependencies": {
+    "@editorjs/editorjs": "^2.18.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "editorjs-math": "^1.0.11",
+    "editorjs-text-color-plugin": "^1.1.1",
+    "katex": "^0.11.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
