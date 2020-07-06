@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/editorPlugin/static/css/main.95f73839.chunk.css",
+    "main.css": "/editorPlugin/static/css/main.d41e7cc6.chunk.css",
     "main.js": "/editorPlugin/static/js/main.da3bbe4d.chunk.js",
     "main.js.map": "/editorPlugin/static/js/main.da3bbe4d.chunk.js.map",
     "runtime-main.js": "/editorPlugin/static/js/runtime-main.58c0a02e.js",
@@ -9,10 +9,10 @@
     "static/js/2.e6ee4470.chunk.js": "/editorPlugin/static/js/2.e6ee4470.chunk.js",
     "static/js/2.e6ee4470.chunk.js.map": "/editorPlugin/static/js/2.e6ee4470.chunk.js.map",
     "index.html": "/editorPlugin/index.html",
-    "precache-manifest.e189fcaab5da9e8f71b2733a1a1b71dd.js": "/editorPlugin/precache-manifest.e189fcaab5da9e8f71b2733a1a1b71dd.js",
+    "precache-manifest.a18e36a7cd73a2f2b9156b9d0cd94276.js": "/editorPlugin/precache-manifest.a18e36a7cd73a2f2b9156b9d0cd94276.js",
     "service-worker.js": "/editorPlugin/service-worker.js",
     "static/css/2.e5f1f78d.chunk.css.map": "/editorPlugin/static/css/2.e5f1f78d.chunk.css.map",
-    "static/css/main.95f73839.chunk.css.map": "/editorPlugin/static/css/main.95f73839.chunk.css.map",
+    "static/css/main.d41e7cc6.chunk.css.map": "/editorPlugin/static/css/main.d41e7cc6.chunk.css.map",
     "static/js/2.e6ee4470.chunk.js.LICENSE.txt": "/editorPlugin/static/js/2.e6ee4470.chunk.js.LICENSE.txt",
     "static/media/katex.css": "/editorPlugin/static/media/KaTeX_Typewriter-Regular.6cc31ea5.woff2"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.58c0a02e.js",
     "static/css/2.e5f1f78d.chunk.css",
     "static/js/2.e6ee4470.chunk.js",
-    "static/css/main.95f73839.chunk.css",
+    "static/css/main.d41e7cc6.chunk.css",
     "static/js/main.da3bbe4d.chunk.js"
   ]
 }
