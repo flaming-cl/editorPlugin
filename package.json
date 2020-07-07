@@ -13,7 +13,8 @@
     "katex": "^0.11.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "reveal.js": "^4.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

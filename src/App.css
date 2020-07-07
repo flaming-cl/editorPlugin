@@ -2,6 +2,16 @@ body {
   background: #b1cac5;
 }
 
+#reveal-node {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
 .App {
   text-align: center;
 }
@@ -42,12 +52,33 @@ body {
 }
 
 .editor {
-  padding: 2% 3% 20px 3%;
+  overflow: auto;
+  padding: 28px 35px 20px 35px;
   z-index: 99;
   background: white;
   height: 85vh;
   width: 500px;/*定宽*/
-  margin: 35px auto;
   text-align: left;
   box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+.editor-wrapper {
+  position: relative;
+  margin: 35px auto;
+  height: 85vh;
+  width: 500px
+}
+
+.ppt-btn {
+  position: absolute;
+  top: 15px;
+  right: -49px;
+  width: 20px;
+  height: 20px;
+  z-index: 998;
+}
+
+.ppt-btn:hover {
+  background: #faebd7;
+  opacity: 0.8;
 }
