@@ -6,14 +6,14 @@
     "runtime-main.js": "/editorPlugin/static/js/runtime-main.58c0a02e.js",
     "runtime-main.js.map": "/editorPlugin/static/js/runtime-main.58c0a02e.js.map",
     "static/css/2.97bcb21b.chunk.css": "/editorPlugin/static/css/2.97bcb21b.chunk.css",
-    "static/js/2.49ae9594.chunk.js": "/editorPlugin/static/js/2.49ae9594.chunk.js",
-    "static/js/2.49ae9594.chunk.js.map": "/editorPlugin/static/js/2.49ae9594.chunk.js.map",
+    "static/js/2.66900bab.chunk.js": "/editorPlugin/static/js/2.66900bab.chunk.js",
+    "static/js/2.66900bab.chunk.js.map": "/editorPlugin/static/js/2.66900bab.chunk.js.map",
     "index.html": "/editorPlugin/index.html",
-    "precache-manifest.3fed9733fcddfc9db65fac32b1274714.js": "/editorPlugin/precache-manifest.3fed9733fcddfc9db65fac32b1274714.js",
+    "precache-manifest.43b96f2eac508d9baefb031e9e6ccb53.js": "/editorPlugin/precache-manifest.43b96f2eac508d9baefb031e9e6ccb53.js",
     "service-worker.js": "/editorPlugin/service-worker.js",
     "static/css/2.97bcb21b.chunk.css.map": "/editorPlugin/static/css/2.97bcb21b.chunk.css.map",
     "static/css/main.c728b9b3.chunk.css.map": "/editorPlugin/static/css/main.c728b9b3.chunk.css.map",
-    "static/js/2.49ae9594.chunk.js.LICENSE.txt": "/editorPlugin/static/js/2.49ae9594.chunk.js.LICENSE.txt",
+    "static/js/2.66900bab.chunk.js.LICENSE.txt": "/editorPlugin/static/js/2.66900bab.chunk.js.LICENSE.txt",
     "static/media/katex.css": "/editorPlugin/static/media/KaTeX_Typewriter-Regular.6cc31ea5.woff2",
     "static/media/presentation.png": "/editorPlugin/static/media/presentation.b66bbadc.png",
     "static/media/black.css": "/editorPlugin/static/media/source-sans-pro-semibolditalic.c7e698a4.ttf"
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.58c0a02e.js",
     "static/css/2.97bcb21b.chunk.css",
-    "static/js/2.49ae9594.chunk.js",
+    "static/js/2.66900bab.chunk.js",
     "static/css/main.c728b9b3.chunk.css",
     "static/js/main.1459b1cb.chunk.js"
   ]
