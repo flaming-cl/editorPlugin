@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/editorPlugin/static/css/main.c728b9b3.chunk.css",
-    "main.js": "/editorPlugin/static/js/main.1459b1cb.chunk.js",
-    "main.js.map": "/editorPlugin/static/js/main.1459b1cb.chunk.js.map",
+    "main.js": "/editorPlugin/static/js/main.ae8212a2.chunk.js",
+    "main.js.map": "/editorPlugin/static/js/main.ae8212a2.chunk.js.map",
     "runtime-main.js": "/editorPlugin/static/js/runtime-main.58c0a02e.js",
     "runtime-main.js.map": "/editorPlugin/static/js/runtime-main.58c0a02e.js.map",
-    "static/css/2.9482157e.chunk.css": "/editorPlugin/static/css/2.9482157e.chunk.css",
-    "static/js/2.66900bab.chunk.js": "/editorPlugin/static/js/2.66900bab.chunk.js",
-    "static/js/2.66900bab.chunk.js.map": "/editorPlugin/static/js/2.66900bab.chunk.js.map",
+    "static/css/2.641c8c68.chunk.css": "/editorPlugin/static/css/2.641c8c68.chunk.css",
+    "static/js/2.567b500f.chunk.js": "/editorPlugin/static/js/2.567b500f.chunk.js",
+    "static/js/2.567b500f.chunk.js.map": "/editorPlugin/static/js/2.567b500f.chunk.js.map",
     "index.html": "/editorPlugin/index.html",
-    "precache-manifest.72524f7c20d133f873addf3e5e753067.js": "/editorPlugin/precache-manifest.72524f7c20d133f873addf3e5e753067.js",
+    "precache-manifest.64a2d21821b4430140d221098ff93bb9.js": "/editorPlugin/precache-manifest.64a2d21821b4430140d221098ff93bb9.js",
     "service-worker.js": "/editorPlugin/service-worker.js",
-    "static/css/2.9482157e.chunk.css.map": "/editorPlugin/static/css/2.9482157e.chunk.css.map",
+    "static/css/2.641c8c68.chunk.css.map": "/editorPlugin/static/css/2.641c8c68.chunk.css.map",
     "static/css/main.c728b9b3.chunk.css.map": "/editorPlugin/static/css/main.c728b9b3.chunk.css.map",
-    "static/js/2.66900bab.chunk.js.LICENSE.txt": "/editorPlugin/static/js/2.66900bab.chunk.js.LICENSE.txt",
+    "static/js/2.567b500f.chunk.js.LICENSE.txt": "/editorPlugin/static/js/2.567b500f.chunk.js.LICENSE.txt",
     "static/media/katex.css": "/editorPlugin/static/media/KaTeX_Typewriter-Regular.6cc31ea5.woff2",
-    "static/media/presentation.png": "/editorPlugin/static/media/presentation.b66bbadc.png",
-    "static/media/black.css": "/editorPlugin/static/media/source-sans-pro-semibolditalic.c7e698a4.ttf"
+    "static/media/solarized.css": "/editorPlugin/static/media/league-gothic.cd382dc8.woff",
+    "static/media/presentation.png": "/editorPlugin/static/media/presentation.b66bbadc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.58c0a02e.js",
-    "static/css/2.9482157e.chunk.css",
-    "static/js/2.66900bab.chunk.js",
+    "static/css/2.641c8c68.chunk.css",
+    "static/js/2.567b500f.chunk.js",
     "static/css/main.c728b9b3.chunk.css",
-    "static/js/main.1459b1cb.chunk.js"
+    "static/js/main.ae8212a2.chunk.js"
   ]
 }
