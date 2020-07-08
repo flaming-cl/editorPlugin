@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import EditorJS from '@editorjs/editorjs';
-import Slides from 'editorjs-slides-component';
+import Slides from './Slides';
 import { editorConfig } from './config';
 import './App.css';
 
