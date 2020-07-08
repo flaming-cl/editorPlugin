@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import EditorJS from '@editorjs/editorjs';
 import Slides from 'editorjs-slides-component';
-import { editorConfig } from './config';
+import { editorConfig, slidesConfig } from './config';
 import './App.css';
 
 const App = () => {
@@ -31,7 +31,9 @@ const App = () => {
   return (
     <div className="App">
         <section className="editor-wrapper">
-            {/*<Slides btnClassName="slides-btn-wrapper"/>*/}
+            <Slides
+                slidesConfig={slidesConfig}
+                btnClassName="slides-btn-wrapper"/>
             <div ref={editor} className="editor"/>
         </section>
     </div>

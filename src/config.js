@@ -43,3 +43,7 @@ export const editorConfig =
         },
         data: { blocks:  cacheData ? JSON.parse(cacheData) : initData }
     };
+
+export const slidesConfig = {
+    slideNumber: false
+};

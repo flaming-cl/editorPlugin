@@ -10,7 +10,7 @@
     "@testing-library/user-event": "^7.1.2",
     "antd": "^4.4.1",
     "editorjs-math": "^1.0.14",
-    "editorjs-slides-component": "0.0.23",
+    "editorjs-slides-component": "0.0.3",
     "editorjs-text-color-plugin": "^1.1.21",
     "i": "^0.3.6",
     "katex": "^0.11.1",
