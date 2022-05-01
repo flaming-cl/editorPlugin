@@ -31,6 +31,7 @@ export const editorConfig =
                     colorCollections,
                     defaultColor,
                     type: 'text',
+                    customPicker: true
                 }
             },
             Marker: {
