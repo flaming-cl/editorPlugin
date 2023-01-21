@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/editorPlugin/static/css/main.c728b9b3.chunk.css",
-    "main.js": "/editorPlugin/static/js/main.f7b06486.chunk.js",
-    "main.js.map": "/editorPlugin/static/js/main.f7b06486.chunk.js.map",
+    "main.js": "/editorPlugin/static/js/main.f8bcfeb8.chunk.js",
+    "main.js.map": "/editorPlugin/static/js/main.f8bcfeb8.chunk.js.map",
     "runtime-main.js": "/editorPlugin/static/js/runtime-main.58c0a02e.js",
     "runtime-main.js.map": "/editorPlugin/static/js/runtime-main.58c0a02e.js.map",
     "static/css/2.97bcb21b.chunk.css": "/editorPlugin/static/css/2.97bcb21b.chunk.css",
     "static/js/2.9fde9f2f.chunk.js": "/editorPlugin/static/js/2.9fde9f2f.chunk.js",
     "static/js/2.9fde9f2f.chunk.js.map": "/editorPlugin/static/js/2.9fde9f2f.chunk.js.map",
     "index.html": "/editorPlugin/index.html",
-    "precache-manifest.2bd3bb4c0769eb7846e504a4ba3ddc81.js": "/editorPlugin/precache-manifest.2bd3bb4c0769eb7846e504a4ba3ddc81.js",
+    "precache-manifest.7d6ea6fd1a484930babcc3798b2087f5.js": "/editorPlugin/precache-manifest.7d6ea6fd1a484930babcc3798b2087f5.js",
     "service-worker.js": "/editorPlugin/service-worker.js",
     "static/css/2.97bcb21b.chunk.css.map": "/editorPlugin/static/css/2.97bcb21b.chunk.css.map",
     "static/css/main.c728b9b3.chunk.css.map": "/editorPlugin/static/css/main.c728b9b3.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.97bcb21b.chunk.css",
     "static/js/2.9fde9f2f.chunk.js",
     "static/css/main.c728b9b3.chunk.css",
-    "static/js/main.f7b06486.chunk.js"
+    "static/js/main.f8bcfeb8.chunk.js"
   ]
 }

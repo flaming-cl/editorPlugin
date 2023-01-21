@@ -1262,6 +1262,11 @@
     "exec-sh" "^0.3.2"
     "minimist" "^1.2.0"
 
+"@codexteam/icons@0.1.0":
+  "integrity" "sha512-jW1fWnwtWzcP4FBGsaodbJY3s1ZaRU+IJy1pvJ7ygNQxkQinybJcwXoyt0a5mWwu/4w30A42EWhCrZn8lp4fdw=="
+  "resolved" "https://registry.npmjs.org/@codexteam/icons/-/icons-0.1.0.tgz"
+  "version" "0.1.0"
+
 "@csstools/convert-colors@^1.4.0":
   "integrity" "sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw=="
   "resolved" "https://registry.npmjs.org/@csstools/convert-colors/-/convert-colors-1.4.0.tgz"
@@ -1272,13 +1277,21 @@
   "resolved" "https://registry.npmjs.org/@csstools/normalize.css/-/normalize.css-10.1.0.tgz"
   "version" "10.1.0"
 
-"@editorjs/editorjs@^2.18.0":
-  "integrity" "sha512-9OKs580JFKoXCAw7llb19E+qxY6QuzgDBq50cKbyOS1Lt+BglTq/zBdXxmRWNRTlCMxjTB1vgnq70+OjEyDSlw=="
-  "resolved" "https://registry.npmjs.org/@editorjs/editorjs/-/editorjs-2.18.0.tgz"
-  "version" "2.18.0"
+"@editorjs/editorjs@^2.26.4":
+  "integrity" "sha512-yuJ2NM1Y5+8DDNWr4C00tHMVHKy0uCqK1HS4pwFPVcXUawgJnU2Li2vKGvPLuf0Jj2ir7MVgADO6oC1TbYBOYQ=="
+  "resolved" "https://registry.npmjs.org/@editorjs/editorjs/-/editorjs-2.26.4.tgz"
+  "version" "2.26.4"
   dependencies:
+    "@codexteam/icons" "0.1.0"
     "codex-notifier" "^1.1.2"
-    "codex-tooltip" "^1.0.1"
+    "codex-tooltip" "^1.0.5"
+    "html-janitor" "^2.0.4"
+    "nanoid" "^3.1.22"
+
+"@editorjs/header@^2.6.2":
+  "integrity" "sha512-U1dnT+KGjwFmpWneEEyR2Nqp42hn9iKwQDgRHWQM+y6qx82pg+eAyuIf0QWt2Mluu9uPD2CzNfvJ+pxIuwX8Lw=="
+  "resolved" "https://registry.npmjs.org/@editorjs/header/-/header-2.6.2.tgz"
+  "version" "2.6.2"
 
 "@hapi/address@2.x.x":
   "integrity" "sha512-QD1PhQk+s31P1ixsX0H0Suoupp3VMXzIVMSwobR3F3MSUO2YCV0B7xqLcUw/Bh8yuvd3LhpyqLQWTNcRmp6IdQ=="
@@ -3358,10 +3371,10 @@
   "resolved" "https://registry.npmjs.org/codex-notifier/-/codex-notifier-1.1.2.tgz"
   "version" "1.1.2"
 
-"codex-tooltip@^1.0.1":
-  "integrity" "sha512-1xLb1NZbxguNtf02xBRhDphq/EXvMMeEbY0ievjQTHqf8UjXsD41evGk9rqcbjpl+JOjNgtwnp1OaU/X/h6fhQ=="
-  "resolved" "https://registry.npmjs.org/codex-tooltip/-/codex-tooltip-1.0.1.tgz"
-  "version" "1.0.1"
+"codex-tooltip@^1.0.5":
+  "integrity" "sha512-IuA8LeyLU5p1B+HyhOsqR6oxyFQ11k3i9e9aXw40CrHFTRO2Y1npNBVU3W1SvhKAbUU7R/YikUBdcYFP0RcJag=="
+  "resolved" "https://registry.npmjs.org/codex-tooltip/-/codex-tooltip-1.0.5.tgz"
+  "version" "1.0.5"
 
 "collection-visit@^1.0.0":
   "integrity" "sha1-S8A3PBZLwykbTTaMgpzxqApZ3KA="
@@ -3633,9 +3646,9 @@
   "version" "2.6.11"
 
 "core-js@^3.5.0":
-  "integrity" "sha512-vZVEEwZoIsI+vPEuoF9Iqf5H7/M3eeQqWlQnYa8FSKKePuYTf5MWnxb5SDAzCa60b3JBRS5g9b+Dq7b1y/RCrA=="
-  "resolved" "https://registry.npmjs.org/core-js/-/core-js-3.6.5.tgz"
-  "version" "3.6.5"
+  "integrity" "sha512-7Vh11tujtAZy82da4duVreQysIoO2EvVrur7y6IzZkH1IHPSekuDi8Vuw1+YKjkbfWLRD7Nc9ICQ/sIUDutcyg=="
+  "resolved" "https://registry.npmjs.org/core-js/-/core-js-3.23.5.tgz"
+  "version" "3.23.5"
 
 "core-util-is@~1.0.0", "core-util-is@1.0.2":
   "integrity" "sha1-tf1UIgqivFq1eqtxQMlAdUUDwac="
@@ -4418,10 +4431,10 @@
   dependencies:
     "reveal.js" "^4.0.2"
 
-"editorjs-text-color-plugin@^1.13.1":
-  "integrity" "sha512-iCK274omDhoU7/zIFwV1fP5ydgfObYXSGV+q2zlFq3D4JDnvtn0KP+6NPM1A4dDlxTczpywPByRKIwmf7z4CIg=="
-  "resolved" "https://registry.npmjs.org/editorjs-text-color-plugin/-/editorjs-text-color-plugin-1.13.1.tgz"
-  "version" "1.13.1"
+"editorjs-text-color-plugin@^1.2.0":
+  "integrity" "sha512-cT8nxyRUn1un/FRFyMP9nFV4Jvh93/Zn/b69zUT/Bgy23DGOiFpDfigm0yi3nXo9sjE2VuXBVlO5gcoAaEXpKw=="
+  "resolved" "https://registry.npmjs.org/editorjs-text-color-plugin/-/editorjs-text-color-plugin-1.2.0.tgz"
+  "version" "1.2.0"
 
 "ee-first@1.1.1":
   "integrity" "sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0="
@@ -5871,6 +5884,11 @@
   "integrity" "sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg=="
   "resolved" "https://registry.npmjs.org/html-escaper/-/html-escaper-2.0.2.tgz"
   "version" "2.0.2"
+
+"html-janitor@^2.0.4":
+  "integrity" "sha512-92J5h9jNZRk30PMHapjHEJfkrBWKCOy0bq3oW2pBungky6lzYSoboBGPMvxl1XRKB2q+kniQmsLsPbdpY7RM2g=="
+  "resolved" "https://registry.npmjs.org/html-janitor/-/html-janitor-2.0.4.tgz"
+  "version" "2.0.4"
 
 "html-minifier-terser@^5.0.1":
   "integrity" "sha512-ZPr5MNObqnV/T9akshPKbVgyOqLmy+Bxo7juKCfTfnjNniTAMdy4hz21YQqoofMBJD2kdREaqPPdThoR78Tgxg=="
@@ -8115,6 +8133,11 @@
   "integrity" "sha512-isWHgVjnFjh2x2yuJ/tj3JbwoHu3UC2dX5G/88Cm24yB6YopVgxvBObDY7n5xW6ExmFhJpSEQqFPvq9zaXc8Jw=="
   "resolved" "https://registry.npmjs.org/nan/-/nan-2.14.1.tgz"
   "version" "2.14.1"
+
+"nanoid@^3.1.22":
+  "integrity" "sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw=="
+  "resolved" "https://registry.npmjs.org/nanoid/-/nanoid-3.3.4.tgz"
+  "version" "3.3.4"
 
 "nanomatch@^1.2.9":
   "integrity" "sha512-fpoe2T0RbHwBTBUOftAfBPaDEi06ufaUai0mE6Yn1kacc3SnTErfb/h+X94VXzI64rKFHYImXSvdwGGCmwOqCA=="

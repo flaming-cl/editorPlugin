@@ -1,5 +1,7 @@
 import Math from "editorjs-math";
 import Color from "editorjs-text-color-plugin";
+import Header from '@editorjs/header';
+
 const colorCollections = ['#FF1300','#EC7878','#9C27B0','#673AB7','#3F51B5','#0070FF','#03A9F4','#00BCD4','#4CAF50','#8BC34A','#CDDC39', '#FFF'];
 const defaultColor = '#FF1300';
 const initData = [
@@ -33,6 +35,10 @@ export const editorConfig =
                     type: 'text',
                     customPicker: true
                 }
+            },
+            header: {
+                class: Header,
+                inlineToolbar: ['Color']
             },
             Marker: {
                 class: Color,
