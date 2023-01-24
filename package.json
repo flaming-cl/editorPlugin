@@ -12,7 +12,7 @@
     "antd": "^4.4.1",
     "editorjs-math": "^1.0.14",
     "editorjs-slides-component": "0.0.3",
-    "editorjs-text-color-plugin": "^1.2.0",
+    "editorjs-text-color-plugin": "^2.0.2",
     "i": "^0.3.6",
     "katex": "^0.11.1",
     "npm": "^6.14.6",

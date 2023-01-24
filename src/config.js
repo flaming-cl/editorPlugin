@@ -33,7 +33,7 @@ export const editorConfig =
                     colorCollections,
                     defaultColor,
                     type: 'text',
-                    customPicker: true
+                    customPicker: true,
                 }
             },
             header: {

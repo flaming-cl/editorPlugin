@@ -4,6 +4,25 @@ object-assign
 @license MIT
 */
 
+/*!
+* reveal.js 4.0.2
+* https://revealjs.com
+* MIT licensed
+*
+* Copyright (C) 2020 Hakim El Hattab, https://hakim.se
+*/
+
+/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
+
+/**
+     * Header block for the Editor.js.
+     *
+     * @author CodeX (team@ifmo.su)
+     * @copyright CodeX 2018
+     * @license MIT
+     * @version 2.0.0
+     */
+
 /**
      * Math Block for the Editor.js.
      * Render Tex syntax/plain text to pretty math equations
